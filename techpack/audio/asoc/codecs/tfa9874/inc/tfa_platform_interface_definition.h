@@ -28,9 +28,7 @@
 #ifdef AUDIO_SM8250_FLAG
 #if defined(CONFIG_TARGET_PRODUCT_MUNCH)
 #define TFA_USING_TERTIARY_MI2S
-#else
 #define TFA_USING_PRIMARY_MI2S
-#else
 #define TFA_USING_SECONDARY_MI2S
 #endif
 
@@ -133,4 +131,4 @@
 #else
 	#error you should define which mi2s will be used for TFA device.
 #endif
-#endif /* _TFA_PLATFORM_INTERFACE_DEFINITION_H_ */
+#endif
