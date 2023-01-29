@@ -2665,7 +2665,7 @@
 #include "scuba-pm.dtsi"
 #include "scuba-sde.dtsi"
 #include "scuba-sde-pll.dtsi"
-#include "camera/scuba-camera.dtsi"
+// #include "camera/scuba-camera.dtsi"
 
 &msm_vidc {
 	qcom,cx-ipeak-data = <&cx_ipeak_lm 6>;
