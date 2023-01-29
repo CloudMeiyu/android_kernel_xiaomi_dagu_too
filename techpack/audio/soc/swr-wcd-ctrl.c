@@ -16,9 +16,9 @@
 #include <linux/of.h>
 #include <linux/debugfs.h>
 #include <linux/uaccess.h>
-#include <soc/soundwire.h>
-#include <soc/swr-wcd.h>
-#include <dsp/msm-audio-event-notify.h>
+#include "../include/soc/soundwire.h"
+#include "../include/soc/swr-wcd.h"
+#include "../include/dsp/msm-audio-event-notify.h"
 #include "swrm_registers.h"
 #include "swr-wcd-ctrl.h"
 
