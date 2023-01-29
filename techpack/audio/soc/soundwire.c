@@ -13,7 +13,7 @@
 #include <linux/completion.h>
 #include <linux/idr.h>
 #include <linux/pm_runtime.h>
-#include <soc/soundwire.h>
+#include "../include/soc/soundwire.h"
 
 struct boardinfo {
 	struct list_head	list;
