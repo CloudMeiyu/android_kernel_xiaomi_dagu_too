@@ -7,7 +7,7 @@
 #include <linux/slab.h>
 #include <linux/module.h>
 #include <linux/of_device.h>
-#include <soc/snd_event.h>
+#include "../include/soc/snd_event.h"
 
 struct snd_event_client {
 	struct list_head node;
