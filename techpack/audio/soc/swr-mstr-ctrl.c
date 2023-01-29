@@ -18,8 +18,8 @@
 #include <linux/of_gpio.h>
 #include <linux/pm_runtime.h>
 #include <linux/of.h>
-#include <soc/soundwire.h>
-#include <soc/swr-common.h>
+#include "../include/soc/soundwire.h"
+#include "../include/soc/swr-common.h"
 #include <linux/regmap.h>
 #include <dsp/msm-audio-event-notify.h>
 #include <dsp/digital-cdc-rsc-mgr.h>
