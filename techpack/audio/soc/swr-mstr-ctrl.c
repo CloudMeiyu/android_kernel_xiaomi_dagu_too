@@ -21,8 +21,8 @@
 #include "../include/soc/soundwire.h"
 #include "../include/soc/swr-common.h"
 #include <linux/regmap.h>
-#include <dsp/msm-audio-event-notify.h>
-#include <dsp/digital-cdc-rsc-mgr.h>
+#include "../include/dsp/msm-audio-event-notify.h"
+#include "../include/dsp/digital-cdc-rsc-mgr.h"
 #include "swrm_registers.h"
 #include "swr-mstr-ctrl.h"
 
