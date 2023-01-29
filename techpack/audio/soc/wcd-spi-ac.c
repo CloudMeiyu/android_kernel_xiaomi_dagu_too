@@ -12,8 +12,8 @@
 #include <linux/slab.h>
 #include <linux/notifier.h>
 #include <linux/wcd-spi-ac-params.h>
-#include <soc/wcd-spi-ac.h>
-#include <soc/qcom/msm_qmi_interface.h>
+#include "../include/soc/wcd-spi-ac.h"
+#include "../include/soc/qcom/msm_qmi_interface.h"
 
 #include "wcd_spi_ctl_v01.h"
 
